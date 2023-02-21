@@ -1,0 +1,91 @@
+<footer>
+    <div class="container">
+        <div class="wrapper">
+            <div class="item">
+                <img src="src/assets/icons/logo(2).svg" alt="">
+            </div>
+
+
+            <div class="item">
+                <h3 class="title">Контакты</h3>
+                <a href="" class="link-text">+7 (812) 123-45-67</a>
+                <a href="" class="link-text">+7 (911) 123-45-67</a>
+                <a href="" class="link-text">Новоостровский проспект, дом 36 лит. С</a>
+            </div>
+
+
+            <div class="item">
+                <h3 class="title">Режим работы</h3>
+                <a href="" class="link-text">C 10:00 до 21:00 (Пн-Пт)</a>
+                <a href="" class="link-text">С 11:00 до 20:00 (Сб-Вс)</a>
+                
+            </div>
+
+
+            <div class="item">
+                <h3 class="title">Мы в Instagram</h3>
+                <a href="" class="link">
+                    <img src="src/assets/icons/instagram.svg" alt="">
+                </a>
+                
+            </div>
+        </div>
+        <div class="copiright">
+            <p>Copyright © 2017 - 2022</p>
+        </div>
+    </div>
+</footer>
+
+<style lang="scss"> 
+@import "../assets/styles/utils/var.scss";
+footer {
+    
+    .wrapper {
+        padding: 80px 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .item {
+        .title {
+            font-style: 24px;
+            font-weight: 700;
+            font-family: $second-font;
+            margin-bottom: 25px;
+        }
+        
+
+        .link-text {
+            display: block;
+            margin-bottom: 15px;
+            opacity: 0.9;
+            transition: 0.5s;
+
+            &:hover {
+                color: $brand;
+            }
+        }
+
+        .link {
+            
+            transition: 0.5s;
+
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+
+        
+
+    }
+    
+    .copiright {
+        text-align: center;
+        margin-top: 30px;
+        opacity: 0.5;;
+    }
+}
+
+</style>

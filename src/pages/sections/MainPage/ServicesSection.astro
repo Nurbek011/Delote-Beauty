@@ -1,0 +1,127 @@
+---
+import MastersWrap from "../../../components/MastersWrap.astro";
+---
+<section class="services">
+    <div class="container">
+        <div class="wrapper">
+
+
+            <!-- card -->
+            <div class="card">
+                <MastersWrap height="320px">
+                    <img src="src/assets/images/services-1.jpg" alt="">
+                </MastersWrap>
+
+                <h3 class="name">Парикмахерские услуги</h3>
+            </div>
+
+
+            <!-- card -->
+            <div class="card">
+                <MastersWrap height="320px">
+                    <img src="src/assets/images/services-2.jpg" alt="">
+                </MastersWrap>
+
+                <h3 class="name">Парикмахерские услуги</h3>
+            </div>
+
+
+            <!-- card -->
+            <div class="card">
+                <MastersWrap height="320px">
+                    <img src="src/assets/images/services-3.jpg" alt="">
+                </MastersWrap>
+
+                <h3 class="name">Парикмахерские услуги</h3>
+            </div>
+
+
+            <!-- card -->
+            <div class="card">
+                <MastersWrap height="320px">
+                    <img src="src/assets/images/services-4.jpg" alt="">
+                </MastersWrap>
+
+                <h3 class="name">Парикмахерские услуги</h3>
+            </div>
+
+
+            <!-- card -->
+            <div class="card">
+                <MastersWrap height="320px">
+                    <img src="src/assets/images/services-5.jpg" alt="">
+                </MastersWrap>
+
+                <h3 class="name">Парикмахерские услуги</h3>
+            </div>
+
+
+            <!-- card -->
+            <div class="card">
+                <MastersWrap height="320px">
+                    <img src="src/assets/images/services-6.jpg" alt="">
+                </MastersWrap>
+
+                <h3 class="name">Парикмахерские услуги</h3>
+            </div>
+        </div>
+        <div class="wrap">
+
+            <!-- logo -->
+            <div class="logo">
+                <img src="src/assets/images/partner-1.png" alt="">
+            </div>
+
+            <!-- logo -->
+            <div class="logo">
+                <img src="src/assets/images/partner-2.png" alt="">
+            </div>
+
+            <!-- logo -->
+            <div class="logo">
+                <img src="src/assets/images/partner-3.png" alt="">
+            </div>
+
+            <!-- logo -->
+            <div class="logo">
+                <img src="src/assets/images/partner-4.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<style lang="scss">
+    @import "../../../assets/styles/utils/var.scss";
+    .services {
+        padding-bottom: 162px;
+        .wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 60px 20px;
+
+            .card {
+                max-width: 416px;
+                width: 100%;
+                min-width: 350px;
+
+
+               .name{
+                font-size: 30px;
+                font-weight: 400;
+                font-family: $second-font;
+                margin-top: 30px;
+               }
+            }
+        }
+
+        .wrap {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 170px;
+            .logo {
+                opacity: 0.5;
+            }
+        }
+    }
+</style>

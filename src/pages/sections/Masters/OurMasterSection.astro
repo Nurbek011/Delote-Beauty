@@ -1,0 +1,112 @@
+---
+import MastersWrap from "../../../components/MastersWrap.astro";
+import Title from "../../../components/Title.astro";
+
+---
+
+<section class="out-masters">
+    <div class="container">
+        <Title>Наши мастера</Title>
+
+        <div class="wrapper">
+
+            <!-- Card -->
+            <div class="card">
+                <!-- component -->
+               <MastersWrap height="500px">
+                <img src="src/assets/images/masters1.jpg" alt="image" class="image">
+               </MastersWrap>
+                <h3 class="title">Елена Васильевна</h3>
+                <p class="job">Визажист</p>
+            </div>
+
+            <!-- Card -->
+            <div class="card">
+                <!-- component -->
+               <MastersWrap height="500px">
+                <img src="src/assets/images/masters2.jpg" alt="image" class="image">
+               </MastersWrap>
+                <h3 class="title">Елена Васильевна</h3>
+                <p class="job">Визажист</p>
+            </div>
+
+            <!-- Card -->
+            <div class="card">
+                <!-- component -->
+               <MastersWrap height="500px">
+                <img src="src/assets/images/masters13.jpg" alt="image" class="image">
+               </MastersWrap>
+                <h3 class="title">Елена Васильевна</h3>
+                <p class="job">Визажист</p>
+            </div>
+
+            <!-- Card -->
+            <div class="card">
+                <!-- component -->
+               <MastersWrap height="500px">
+                <img src="src/assets/images/masters4.jpg" alt="image" class="image">
+               </MastersWrap>
+                <h3 class="title">Елена Васильевна</h3>
+                <p class="job">Визажист</p>
+            </div>
+
+            <!-- Card -->
+            <div class="card">
+                <!-- component -->
+               <MastersWrap height="500px">
+                <img src="src/assets/images/masters5.jpg" alt="image" class="image">
+               </MastersWrap>
+                <h3 class="title">Елена Васильевна</h3>
+                <p class="job">Визажист</p>
+            </div>
+
+            <!-- Card -->
+            <div class="card">
+                <!-- component -->
+               <MastersWrap height="500px">
+                <img src="src/assets/images/masters1.jpg" alt="image" class="image">
+               </MastersWrap>
+                <h3 class="title">Елена Васильевна</h3>
+                <p class="job">Визажист</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<style lang="scss">
+   
+    
+    .out-masters {
+        padding: 180px 0;
+        min-height: 100vh;
+
+
+        .wrapper {
+            margin-top: 80px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 60px 20px;
+
+            .card {
+                width: 100%;
+                max-width: 416px;
+                min-width: 350px;
+                
+
+                .title {
+                    font-size: 27px;
+                    font-weight: 700;
+                    margin: 30px 0 10px;
+
+                }
+                
+            }
+
+            
+        }
+    }
+
+    
+</style>
